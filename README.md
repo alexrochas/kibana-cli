@@ -21,7 +21,7 @@ To be able to pipe logs and do all kind of transformations..like?
    | sed -e 's/\\n/\\\n/g' \
    | cgrep -i -p INFO:yellow -p "\d{4}-.* ":red 
 ```
-> usgin [cgrep](https://github.com/alexrochas/colorized-grep)
+> using [cgrep](https://github.com/alexrochas/colorized-grep)
 
 The command bellow selects only the log field from the elasticsearch object colorizing the log level and time.
 This improves the readability and consumes less time than try to understand or deal with Kibana logs.
